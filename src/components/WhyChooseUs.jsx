@@ -69,10 +69,10 @@ export function WhyChooseAd360() {
                                     height={200}
                                     className={`object-cover rounded-lg`}
                                 />
-                                <h3 className="text-3xl font-semibold mb-4">
+                                <h3 className="text-center text-3xl font-semibold mb-4">
                                     {feature.title}
                                 </h3>
-                                <p className="text-muted-foreground text-2xl">
+                                <p className="text-center text-muted-foreground text-2xl">
                                     {feature.description}
                                 </p>
                             </CardContent>

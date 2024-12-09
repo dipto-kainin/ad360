@@ -6,19 +6,25 @@ import { Spotlight } from "./ui/spotlight";
 export function Hero() {
     return (
         <div className="relative bg-white">
-            <div className="container flex flex-col lg:flex-row items-center gap-8 py-12 lg:py-24 lg:px-32 md:px-11 px-5">
-                <div className="flex-1 space-y-6">
-                    <h1 className="text-5xl font-bold leading-tight lg:text-6xl">
+            <div className="container flex flex-col lg:flex-row py-4 items-center lg:py-24 lg:px-10 md:px-5 px-5">
+                <div className="flex-1 p-5">
+                    <h1 className="text-5xl font-bold leading-tight lg:text-6xl pb-3 mb-5">
                         <span className="text-blue-500">Break Free</span>
                         <br />
                         <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                             From Ad Restrictions
                         </span>
                     </h1>
-                    <p className="text-xl text-muted-foreground">
-                        Effortlessly Restart Meta and Google Ads in a Snap!
+                    <p className="text-2xl text-black mb-5">
+                        Resume Meta and Google ad campaigns effortlessly.
+                        <br />
+                        No more ad account worries. Get started within seconds
                     </p>
-                    <Button size="lg" asChild>
+                    <Button
+                        size="xl"
+                        className=" mb-4 bg-gradient-to-r from-blue-700 to-blue-500 hover:from-blue-600 hover:to-blue-800 text-white font-bold p-6 rounded-full px-14"
+                        asChild
+                    >
                         <Link href="/demo">Book a Demo</Link>
                     </Button>
                     <div className="flex items-center gap-6 pt-4">

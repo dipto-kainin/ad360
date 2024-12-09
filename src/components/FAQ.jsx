@@ -9,9 +9,9 @@ import {
 
 export function FAQ() {
     return (
-        <section className="py-16 bg-white">
-            <div className="container max-w-3xl">
-                <h2 className="text-3xl font-bold text-center mb-8">
+        <section className="py-16 bg-white flex-1 justify-center">
+            <div className="container max-w-6xl mx-auto">
+                <h2 className="text-5xl font-bold text-center mb-8">
                     Frequently asked questions
                 </h2>
                 <Accordion type="single" collapsible className="space-y-4">
@@ -19,11 +19,11 @@ export function FAQ() {
                         value="item-1"
                         className="border rounded-lg px-4"
                     >
-                        <AccordionTrigger className="text-left">
+                        <AccordionTrigger className="text-left text-2xl hover:no-underline">
                             How many domains, pixels and pages can be used in
                             the Account?
                         </AccordionTrigger>
-                        <AccordionContent>
+                        <AccordionContent className="text-xl">
                             Contact our support team for detailed information
                             about account limits and capabilities.
                         </AccordionContent>
@@ -32,11 +32,11 @@ export function FAQ() {
                         value="item-2"
                         className="border rounded-lg px-4"
                     >
-                        <AccordionTrigger className="text-left">
+                        <AccordionTrigger className="text-left text-2xl hover:no-underline">
                             What if the ad360.ai ad accounts get disabled? Will
                             the funds be transferred?
                         </AccordionTrigger>
-                        <AccordionContent>
+                        <AccordionContent className="text-xl">
                             We have measures in place to protect your funds and
                             ensure business continuity. Contact support for
                             specific details.
@@ -46,10 +46,10 @@ export function FAQ() {
                         value="item-3"
                         className="border rounded-lg px-4"
                     >
-                        <AccordionTrigger className="text-left">
+                        <AccordionTrigger className="text-left text-2xl hover:no-underline">
                             Do you provide multiple ad accounts?
                         </AccordionTrigger>
-                        <AccordionContent>
+                        <AccordionContent className="text-xl">
                             Yes, we can support multiple ad accounts based on
                             your business needs and requirements.
                         </AccordionContent>
