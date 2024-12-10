@@ -12,9 +12,10 @@ const geistMono = localFont({
     weight: "100 900",
 });
 const popins = localFont({
+    subsets: ["latin"],
     src: "./fonts/Poppins-Light.woff",
     variable: "--font-popins",
-    weight: "100 900",
+    weight: "600",
 });
 
 export const metadata = {

@@ -10,9 +10,9 @@ export function Navigation() {
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
-        <header className="sticky top-0 z-50 p-5 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-            <div className="container flex h-16 items-center justify-between">
-                <Link href="/" className="flex items-center space-x-2">
+        <header className="sticky top-0 z-50 mx-auto w-full px-10 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+            <div className="container flex h-16 items-center justify-between m-auto px-14">
+                <Link href="/" className="flex items-center">
                     <Image
                         src="https://drbgg29kvmub6.cloudfront.net/assets/ad360/Ad360_Header.svg"
                         alt="Ad360 Logo"
@@ -21,7 +21,7 @@ export function Navigation() {
                     />
                 </Link>
 
-                <nav className="hidden md:flex items-center space-x-6 gap-5">
+                <nav className="hidden md:flex items-center space-x-6 justify-between">
                     <Link href="/" className="text-2xl font-medium">
                         Home
                     </Link>

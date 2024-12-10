@@ -5,8 +5,8 @@ import { Spotlight } from "./ui/spotlight";
 
 export function Hero() {
     return (
-        <div className="relative bg-white">
-            <div className="container flex flex-col lg:flex-row py-4 items-center lg:py-24 lg:px-10 md:px-5 px-5">
+        <div className="bg-white w-full flex flex-col justify-center items-center">
+            <div className="flex flex-col lg:flex-row py-4 items-center lg:py-24 px-32 w-full h-dvh">
                 <div className="flex-1 p-5">
                     <h1 className="text-5xl font-bold leading-tight lg:text-6xl pb-3 mb-5">
                         <span className="text-blue-500">Break Free</span>
@@ -51,7 +51,7 @@ export function Hero() {
                         />
                     </div>
                 </div>
-                <div className="flex-1 relative">
+                <div className="flex flex-col justify-center items-center">
                     <Image
                         src="https://drbgg29kvmub6.cloudfront.net/assets/ad360/Ad360MainSectionImg.webp"
                         alt="Hero Image"
@@ -61,11 +61,12 @@ export function Hero() {
                     />
                 </div>
             </div>
-            <div className="container py-10 flex flex-col gap-4 bg-[#080c3d]">
-                <Spotlight
-                    className="-top-40 left-0 md:left-60 md:-top-20"
-                    fill="white"
-                />
+            <div
+                className="w-full py-10 flex flex-col gap-4 bg-cover bg-center"
+                style={{
+                    backgroundImage: `url('https://drbgg29kvmub6.cloudfront.net/assets/ad360/ProductShowCase.webp')`,
+                }}
+            >
                 <div className="flex lg:flex-row justify-evenly flex-col">
                     <div className="flex items-center gap-4">
                         <Image

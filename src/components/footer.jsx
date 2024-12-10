@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-r from-[#041332] to-[#47074c] text-white py-16 px-10 rounded-2xl">
+        <footer className="bg-gradient-to-r from-[#041332] to-[#47074c] text-white py-16 px-10 rounded-2xl w-full">
             <div className="container ml-12 px-4 sm:px-6 lg:px-8 gap-5 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 justify-between items-center ">
                 <div>
                     <Image

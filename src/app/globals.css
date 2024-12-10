@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
     font-family: Arial, Helvetica, sans-serif, "Poppins", sans-serif;
@@ -70,4 +69,7 @@ body {
     body {
         @apply bg-background text-foreground;
     }
+}
+.poppins {
+    font-family: var(--font-popins);
 }

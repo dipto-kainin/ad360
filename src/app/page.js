@@ -16,7 +16,7 @@ const AdHero = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="container p-0 m-auto">
+        <div className="flex flex-col min-w-full justify-center items-center poppins overflow-x-hidden">
             <Navigation />
             <Hero />
             <WhyChooseAd360 />

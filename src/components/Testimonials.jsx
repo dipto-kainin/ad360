@@ -46,8 +46,8 @@ const testimonials = [
 
 export const Testimonials = () => {
     return (
-        <div>
-            <h1 className="text-center text-5xl m-6">
+        <div className="w-full">
+            <h1 className="text-center text-5xl m-6 container">
                 This is why customer love us
             </h1>
             <InfiniteMovingCards
